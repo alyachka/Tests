@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ru.beru" verbose="1">
+    <parameter name="environment" value="QA03"/>
+
+    <test name="ChangeCity">
+        <classes>
+            <class name="ru.beru.tests.ChangeCity"/>
+        </classes>
+    </test>
+    <test name="SignIn">
+        <classes>
+            <class name="ru.beru.tests.Autorization"/>
+        </classes>
+    </test>
+    <test name="BuyToothbrush">
+        <classes>
+            <class name="ru.beru.tests.BuyBrushesTooth"/>
+        </classes>
+    </test>
+
+</suite>
